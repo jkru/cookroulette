@@ -1,0 +1,10 @@
+<html>
+    <head>
+        <title>Cook Roulette</title>
+        <style>
+        </style>
+    </head>
+    <body>
+<p> {{hello}} </p>
+    </body>
+</html>
