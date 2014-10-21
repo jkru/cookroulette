@@ -2,7 +2,7 @@ from flask import Flask, request, session, render_template, g, redirect, url_for
 import jinja2
 import os
 import random
-import recipe_classes
+#import recipe_classes
 
 app = Flask(__name__)
 
@@ -18,7 +18,7 @@ def whee():
     this_recipe = recipe_kinds[recipe_struct]
     
 
-    html = render_template("whee.html", recipe = recipe_struct, specific_struct_prep = )
+    html = render_template("whee.html", recipe = recipe_struct )
     return html
 
 def populate_recipe(recipe_struct):
